@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:gravity ="center"
+        android:padding ="20dp"
+        android:orientation ="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+            <EditText
+                android:id="@+id/editTextMatricule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Matricule"
+                android:inputType="text">
+
+            </EditText>
+            <EditText
+                android:id="@+id/editTextMdps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mot de passe"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp">
+
+            </EditText>
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se connecter"
+                android:layout_marginTop="40dp">
+
+            </Button>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:ignore="InvalidId">
+
+    </ProgressBar>
+</FrameLayout>
