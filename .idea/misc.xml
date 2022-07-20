@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/paul kamena/AndroidStudioProjects/ProjetMobile/app/src/main/res/layout/activity_ajoutetravail.xml" value="0.25" />
+        <entry key="..\:/Users/paul kamena/AndroidStudioProjects/ProjetMobile/app/src/main/res/layout/activity_liste_travail.xml" value="0.209375" />
         <entry key="..\:/Users/paul kamena/AndroidStudioProjects/ProjetMobile/app/src/main/res/layout/activity_login.xml" value="0.209375" />
-        <entry key="..\:/Users/paul kamena/AndroidStudioProjects/ProjetMobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/paul kamena/AndroidStudioProjects/ProjetMobile/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
