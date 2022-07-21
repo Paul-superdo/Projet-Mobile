@@ -16,6 +16,8 @@ public class HomePageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setTitle("Accueil");
+
         verifierSession();
         configurerButtonAjout();
         configurerButtonListe();
@@ -59,7 +61,7 @@ public class HomePageActivity extends AppCompatActivity {
     }
     private void configurerButtonProfile(){
         Button btnProfile = findViewById(R.id.btnProfil);
-        Intent intentProfil = new Intent(this,ListeTravailActivity.class);
+        Intent intentProfil = new Intent(this,ProfilActivity.class);
 
         btnProfile.setOnClickListener(new View.OnClickListener() {
             @Override
