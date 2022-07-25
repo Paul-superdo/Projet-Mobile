@@ -20,8 +20,10 @@ public class ProfilActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()== R.id.menu_modifier){
-            Toast.makeText(ProfilActivity.this, "vous avez cliquer sur modifier", Toast.LENGTH_SHORT).show();
-            Intent intentModif = new Intent(this,ModifierProfilActivity.class);
+            //Toast.makeText(ProfilActivity.this, "vous avez cliquer sur modifier", Toast.LENGTH_SHORT).show();
+            Intent intentModif = new Intent(ProfilActivity.this,ModifierProfilActivity.class);
+            startActivity(intentModif);
+
         }else {
             Toast.makeText(ProfilActivity.this, "vous avez cliquer sur parametre", Toast.LENGTH_SHORT).show();
         }
